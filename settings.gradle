@@ -1,0 +1,2 @@
+include ':app', ':stackedcards'
+rootProject.name='Stacked Cards'
