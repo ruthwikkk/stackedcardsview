@@ -1,0 +1,15 @@
+<resources>
+    <declare-styleable name="StackedCardsView">
+        <attr name="scv_scaleFactor" format="float" />
+        <attr name="scv_cardRadius" format="dimension" />
+        <attr name="scv_foregroundCardColor" format="color" />
+        <attr name="scv_backgroundCardColor" format="color" />
+        <attr name="scv_cardPosition" format="enum">
+            <enum name="left" value="0" />
+            <enum name="top" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>
